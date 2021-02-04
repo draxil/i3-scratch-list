@@ -3,7 +3,7 @@ List i3 scratchpad windows
 
 # usage
 ``` 
-# gives a list of windows and ids:
+# gives a list of windows ids and titles:
 i3-scratch-list 
 # gives a list of window titles:
 i3-scratch-list -noid
