@@ -15,7 +15,7 @@ If you have your go bin in your $PATH:
 ```
  go get github.com/draxil/i3-scratch-list 
 ```
-Otherwise download this repository and go and from the directory:
+Otherwise download this repository and go, then from the directory:
 ```
  go build .
  cp i3-scratch-list /somewhere/in/your/path
