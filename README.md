@@ -21,6 +21,8 @@ Otherwise download this repository and go and from the directory:
  cp i3-scratch-list /somewhere/in/your/path
 ```
 
+Better packaging will come if anyone cares to pester for it.
+
 # my rofi / dmenu formula for finding a window in your scratch
 
 So the simple way is the window title only:
@@ -32,5 +34,5 @@ Of course if you want to be able to pick from identical names you can include th
   i3-scratch-list  | rofi -dmenu | perl -nE 'my($id) = split("-");  $id =~ tr/ //d; if($id){say $id}' | xargs -i{} i3-msg "[id=\""{}"\"] scratchpad show"
 ```
 
-Better solutions =on a postcard= in an issue!
+Better solutions in an issue please.
 
