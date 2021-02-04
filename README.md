@@ -23,10 +23,14 @@ Otherwise download this repository and go and from the directory:
 
 # my rofi / dmenu formula for finding a window in your scratch
 
-Probably lots (and better) ways to achieve this but this is mine.
-
+So the simple way is the window title only:
+```
+ i3-scratch-list -noid  | rofi -dmenu | xargs -i{} i3-msg "[title=\""{}"\"] scratchpad show"
+```
+Of course if you want to be able to pick from identical names you can include the ID, of course this is shown in the dmenu/rofi:
 ```
   i3-scratch-list  | rofi -dmenu | perl -nE 'my($id) = split("-");  $id =~ tr/ //d; if($id){say $id}' | xargs -i{} i3-msg "[id=\""{}"\"] scratchpad show"
 ```
 
-Obviously showing the window ids isn't ideal, please file an issue with better ideas :D   
+Better solutions =on a postcard= in an issue!
+
