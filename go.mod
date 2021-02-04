@@ -1,4 +1,4 @@
-module github.com/i3-scratch-list
+module github.com/draxil/i3-scratch-list
 
 go 1.15
 
