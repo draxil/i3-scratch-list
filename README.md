@@ -4,10 +4,10 @@ List i3 scratchpad windows
 # usage
 
 \# gives a list of windows and ids
- i3-scratch-list
+```i3-scratch-list```
 
 \# gives a list of window titles
- i3-scratch-list -noid
+ ```i3-scratch-list -noid```
 
 # installation
 
