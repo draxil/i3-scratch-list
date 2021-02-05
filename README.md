@@ -36,3 +36,7 @@ Of course if you want to be able to pick from identical names you can include th
 
 Better solutions in an issue please.
 
+# credits
+
+- /u/LionSuneater on reddit for reminding me that rofi has a -p switch
+
