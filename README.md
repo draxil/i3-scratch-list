@@ -38,5 +38,5 @@ Better solutions in an issue please.
 
 # credits
 
-- /u/LionSuneater on reddit for reminding me that rofi has a -p switch
+- /u/LionSuneater on reddit for reminding me that rofi/dmenu has a -p switch
 
