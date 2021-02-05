@@ -27,11 +27,11 @@ Better packaging will come if anyone cares to pester for it.
 
 So the simple way is the window title only:
 ```
- i3-scratch-list -noid  | rofi -dmenu | xargs -i{} i3-msg "[title=\""{}"\"] scratchpad show"
+ i3-scratch-list -noid  | rofi -dmenu  -p "scratchpad" | xargs -i{} i3-msg "[title=\""{}"\"] scratchpad show"
 ```
 Of course if you want to be able to pick from identical names you can include the ID, of course this is shown in the dmenu/rofi:
 ```
-  i3-scratch-list  | rofi -dmenu | perl -nE 'my($id) = split("-");  $id =~ tr/ //d; if($id){say $id}' | xargs -i{} i3-msg "[id=\""{}"\"] scratchpad show"
+  i3-scratch-list  | rofi -dmenu -p "scratchpad" | perl -nE 'my($id) = split("-");  $id =~ tr/ //d; if($id){say $id}' | xargs -i{} i3-msg "[id=\""{}"\"] scratchpad show"
 ```
 
 Better solutions in an issue please.
