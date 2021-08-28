@@ -13,7 +13,7 @@ i3-scratch-list -noid
 
 If you have your go bin in your $PATH:
 ```
- go get github.com/draxil/i3-scratch-list 
+ go install github.com/draxil/i3-scratch-list@latest
 ```
 Otherwise download this repository and go, then from the directory:
 ```
