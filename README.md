@@ -32,7 +32,7 @@ If you have your `$GOBIN` in your `$PATH`:
 
 ## github release builds
 
-See the releases page.
+See the [releases page](https://github.com/draxil/i3-scratch-list/releases).
 
 ## Build
 Otherwise download this repository and go, then from the directory:
