@@ -23,10 +23,18 @@ Better solutions in an issue please.
 
 # Installation
 
-If you have your go bin in your $PATH:
+## With go
+
+If you have your `$GOBIN` in your `$PATH`:
 ```
  go install github.com/draxil/i3-scratch-list@latest
 ```
+
+## github release builds
+
+See the releases page.
+
+## Build
 Otherwise download this repository and go, then from the directory:
 ```
  go build .
